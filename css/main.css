@@ -1,42 +1,50 @@
 body {
-    background-color: #44b2c8;
-  }
-  
-  .container {
-    display: inline-block;
-    width: 800px;
-    margin-top: 150px;
-    margin-left: calc(50% - 400px);
-  }
-  
-  .left-column {
-    width: 40%;
-    float: left;
-    padding: 40px;
-    padding-bottom: 20px;
-    background-color: #3f52b2;
-    background-image: url(../img/hill.jpg);
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-  }
-  
-  h1 {
-  }
-  
-  .bottom-texts {
-  }
-  
-  .bottom-texts > a {
-    color: #fff;
-  }
-  
-  .right-column {
-    width: 60%;
-    float: left;
-    padding: 60px;
-    background-color: #fff;
-  }
-  
-  .close {
-  }
+  background-color: #44b2c8;
+}
+
+.container {
+  display: inline-block;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: calc(50% - 400px);
+}
+
+.left-column {
+  width: 40%;
+  float: left;
+  padding: 40px;
+  padding-bottom: 20px;
+  background-color: #3f52b2;
+  background-image: url(../img/hill.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+h1 {
+}
+
+.bottom-texts {
+}
+
+.bottom-texts > a {
+  color: #fff;
+}
+
+.right-column {
+  width: 60%;
+  float: left;
+  padding: 60px;
+  background-color: #fff;
+  position: relative;
+}
+
+.close {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
